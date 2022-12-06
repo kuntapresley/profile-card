@@ -1,4 +1,4 @@
-*,*::before,*::after{
+Y*,*::before,*::after{
     box-sizing: border-box;
  }
  *{
@@ -31,8 +31,8 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image: url(bg-pattern-top.svg) ;
-     background-image:url(bg-pattern-bottom.svg);
+    background-image: url("bg-pattern-top.svg") ;
+     background-image:url("bg-pattern-bottom.svg");
       background-repeat: no-repeat;
 
     background-size: cover;
